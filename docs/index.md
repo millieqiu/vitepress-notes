@@ -1,24 +1,16 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: docs
+# About
+Hi，我是 Millie，也可以叫我米粒。<br>
 
-hero:
-  name: "Millie Qiu"
-  text: "Hi，我是 Millie！歡迎來到我的前端個人筆記本"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+來自台灣的 Frontend-designer，曾一心嚮往成為 UI/UX 設計師，自 2023 年畢業起誤打誤撞踏進前端的領域，因此現正以菜鳥工程師的身份持續學習中。 <br>
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+本網站為我的「個人向」筆記本，目的是將自己從書中或線上課程中學到的新知識紀錄下來，方便日後複習。 <br>
+
+目前正在拓展的技能樹為：
+- HTML / CSS / JavaScript
+- Vue.js
+- Git 版控
+- Tailwind CSS
+
+```txt
+文章中有任何錯誤，還請不吝指教，歡迎多多留言交流；如果剛好能夠幫助您解惑，也歡迎將這個網站分享出去給更多人知道 🦒
+```

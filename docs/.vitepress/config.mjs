@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Millie Qiu",
   description: "Hi，我是 Millie！歡迎來到我的前端個人筆記本",
   head: [
-    ["link", { rel: "icon", href: "/public/favicon.ico" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
       "link",
@@ -19,6 +19,13 @@ export default defineConfig({
         rel: "stylesheet",
       },
     ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap",
+        rel: "stylesheet",
+      },
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -27,11 +34,17 @@ export default defineConfig({
       provider: "local",
     },
     nav: [
-      { text: "Home", link: "/" },
       { text: "Examples", link: "/markdown-examples" },
     ],
 
     sidebar: [
+      {
+        text: "README",
+        items: [
+          { text: "首頁", link: "/" },
+          { text: "寫作原則", link: "/writing-guidelines.md" },
+        ],
+      },
       {
         text: "Examples",
         items: [
