@@ -67,6 +67,22 @@ export default defineConfig({
             text: "[basic] Array / Object",
             link: "/docs-javascript/basic-array-and-object.md",
           },
+          {
+            text: "[basic] Scope & Scope Chain",
+            link: "/docs-javascript/basic-scope",
+          },
+          {
+            text: "[basic] String",
+            link: "/docs-javascript/basic-string"
+          },
+          {
+            text: "[basic] Functions",
+            link: "/docs-javascript/basic-functions"
+          },
+          {
+            text: "Destructuring",
+            link: "/docs-javascript/destructuring"
+          }
         ],
       },
       {
@@ -84,6 +100,10 @@ export default defineConfig({
   },
 
   markdown: {
+    theme: {
+      light: 'rose-pine-dawn',
+      dark: 'rose-pine-moon'
+    },
     config: (md) => {
       // 使用更多的 Markdown-it 插件！
       md.use(markdownItTaskCheckbox);

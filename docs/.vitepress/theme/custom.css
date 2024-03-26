@@ -48,3 +48,8 @@ mark {
   font-size: 1.125rem;
   color: var(--vp-c-text-2);
 }
+
+.bolder {
+  font-weight: 700;
+  color: var(--vp-c-blue-3);
+}
