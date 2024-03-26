@@ -1,19 +1,50 @@
-/** Font-family */
+/* Font-family */
 :root {
-  --vp-font-family-base: 'Poppins', 'Noto Sans TC', ui-sans-serif,
-    system-ui, -apple-system, 'Segoe UI', Roboto, Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  --vp-font-family-mono: 'Fira Mono', 'SF Mono', Menlo, Monaco,
-    Consolas, monospace;
+  --vp-font-family-base: "Poppins", "Noto Sans TC", ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --vp-font-family-mono: "IBM Plex Mono", "SF Mono", Menlo, Monaco, Consolas,
+    monospace;
+}
+
+/* Root Color */
+:root {
+  --vp-c-white: #f6f6f6;
+  --vp-c-black: #222222;
+
+  --vp-c-blue-1: #348cb2;
+  --vp-c-blue-2: #3a97cc;
+  --vp-c-blue-3: #56a2cd;
+  --vp-c-blue-soft: rgba(79, 167, 218, 0.14);
+}
+
+.dark {
+  --vp-c-blue-1: #a8e5ff;
+  --vp-c-blue-2: #5cade7;
+  --vp-c-blue-3: #3e9add;
+  --vp-c-blue-soft: rgba(79, 167, 218, 0.14);
 }
 
 /* code block 樣式 */
-.vp-doc [class*='language-'] code {
+.vp-doc [class*="language-"] code {
   word-break: break-word;
   overflow-wrap: break-word;
   text-wrap: pretty;
 }
 
+/* callout block 樣式 */
+:root {
+  --vp-custom-block-note-border: transparent;
+  --vp-custom-block-note-text: var(--vp-c-text-1);
+  --vp-custom-block-note-bg: var(--vp-c-blue-soft);
+  --vp-custom-block-note-code-bg: var(--vp-c-blue-soft);
+}
+
 mark {
-  background-color: #fff9c6;
+  background-color: var(--vp-c-yellow-soft);
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--vp-c-text-2);
 }
