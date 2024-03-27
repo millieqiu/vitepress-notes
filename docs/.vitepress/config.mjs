@@ -82,14 +82,35 @@ export default defineConfig({
           {
             text: "Destructuring",
             link: "/docs-javascript/destructuring"
-          }
-        ],
-      },
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          },
+          {
+            text: "Spread operator / Rest operator (...)",
+            link: "/docs-javascript/spread-operator"
+          },
+          {
+            text: "Short-circuit Evaluation",
+            link: "/docs-javascript/short-circuit-evaluation"
+          },
+          {
+            text: "Nullish coalescing operator (??) / Optional chainign (?.)",
+            link: "/docs-javascript/nullish-coalescing-operator"
+          },
+          {
+            text: "JS Array Iteration",
+            link: "/docs-javascript/js-array-iteration"
+          },
+          {
+            text: "JS Object Iteration",
+            link: "/docs-javascript/js-object-iteration"
+          },
+          {
+            text: "ES6 Object Literal",
+            link: "/docs-javascript/ES6-object-literal"
+          },
+          {
+            text: "Sets / Maps",
+            link: "/docs-javascript/sets-and-maps"
+          },
         ],
       },
     ],
