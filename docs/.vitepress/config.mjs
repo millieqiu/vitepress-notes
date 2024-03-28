@@ -132,6 +132,56 @@ export default defineConfig({
             text: "[advanced] Callback Functions",
             link: "/docs-javascript/advanced-callback",
           },
+          {
+            text: "[advanced] JS this & call / apply / bind",
+            link: "/docs-javascript/advanced-this",
+          },
+        ],
+      },
+      {
+        text: "HTML",
+        collapsed: true,
+        items: [
+        ],
+      },
+      {
+        text: "CSS",
+        collapsed: true,
+        items: [
+          {
+            text: "Grid 格線排版",
+            link: "/docs-css/css-grid",
+          },
+          {
+            text: "[SASS] @include & @mixin",
+            link: "/docs-css/sass-include-mixin",
+          },
+        ],
+      },
+      {
+        text: "Git 版控",
+        collapsed: true,
+        items: [
+        ],
+      },
+      {
+        text: "Vue",
+        collapsed: true,
+        items: [
+          {
+            text: "Class & Style Bindings",
+            link: "/docs-vue/style-binding",
+          },
+        ],
+      },
+      {
+        text: "曾經踩過的坑",
+        collapsed: true,
+        items: [
+          {
+            text: "HTML / CSS",
+            link: "/docs-pitfall/pitfall-html-css",
+          },
         ],
       },
     ],
