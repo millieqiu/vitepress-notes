@@ -128,6 +128,10 @@ export default defineConfig({
             text: "[advanced] Pass by Value vs. Reference",
             link: "/docs-javascript/advanced-value-and-reference",
           },
+          {
+            text: "[advanced] Callback Functions",
+            link: "/docs-javascript/advanced-callback",
+          },
         ],
       },
     ],
