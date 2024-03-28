@@ -3,7 +3,7 @@
   --vp-font-family-base: "Poppins", "Noto Sans TC", ui-sans-serif, system-ui,
     -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --vp-font-family-mono: "IBM Plex Mono", "SF Mono", Menlo, Monaco, Consolas,
+  --vp-font-family-mono: "Fira Mono", "SF Mono", Menlo, Monaco, Consolas,
     monospace;
 }
 
@@ -30,6 +30,14 @@
   word-break: break-word;
   overflow-wrap: break-word;
   text-wrap: pretty;
+  font-weight: 500;
+}
+
+.vp-doc .custom-block div[class*="language-"] code {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+  font-weight: 500;
 }
 
 /* callout block 樣式 */
@@ -40,6 +48,47 @@
   --vp-custom-block-note-code-bg: var(--vp-c-blue-soft);
 }
 
+.custom-block-title {
+  display: flex;
+  align-items: center;
+  &::before {
+    font-family: "Material Icons Round";
+    font-size: 1rem;
+    vertical-align: middle;
+    margin-right: 4px;
+  }
+}
+
+.custom-block.note > .custom-block-title {
+  &::before {
+    content: "info";
+  }
+}
+
+.custom-block.tip > .custom-block-title {
+  &::before {
+    content: "emoji_objects";
+  }
+}
+
+.custom-block.warning > .custom-block-title {
+  &::before {
+    content: "notifications";
+  }
+}
+
+/* Material Icons */
+.material-icons-round.md-16 {
+  font-size: 16px;
+}
+.material-icons-round.md-18 {
+  font-size: 18px;
+}
+.material-icons-round.md-36 {
+  font-size: 36px;
+}
+
+/* 其他客製化樣式 */
 mark {
   background-color: var(--vp-c-yellow-soft);
 }

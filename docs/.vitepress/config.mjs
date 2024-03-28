@@ -24,7 +24,14 @@ export default defineConfig({
     [
       "link",
       {
-        href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap",
+        rel: "stylesheet",
+      },
+    ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/icon?family=Material+Icons+Round",
         rel: "stylesheet",
       },
     ],
@@ -44,6 +51,8 @@ export default defineConfig({
         timeStyle: "medium",
       },
     },
+
+    outline: [2, 3],
 
     nav: [{ text: "Examples", link: "/markdown-examples" }],
 
@@ -73,43 +82,51 @@ export default defineConfig({
           },
           {
             text: "[basic] String",
-            link: "/docs-javascript/basic-string"
+            link: "/docs-javascript/basic-string",
           },
           {
             text: "[basic] Functions",
-            link: "/docs-javascript/basic-functions"
+            link: "/docs-javascript/basic-functions",
           },
           {
             text: "Destructuring",
-            link: "/docs-javascript/destructuring"
+            link: "/docs-javascript/destructuring",
           },
           {
             text: "Spread operator / Rest operator (...)",
-            link: "/docs-javascript/spread-operator"
+            link: "/docs-javascript/spread-operator",
           },
           {
             text: "Short-circuit Evaluation",
-            link: "/docs-javascript/short-circuit-evaluation"
+            link: "/docs-javascript/short-circuit-evaluation",
           },
           {
             text: "Nullish coalescing operator (??) / Optional chainign (?.)",
-            link: "/docs-javascript/nullish-coalescing-operator"
+            link: "/docs-javascript/nullish-coalescing-operator",
           },
           {
             text: "JS Array Iteration",
-            link: "/docs-javascript/js-array-iteration"
+            link: "/docs-javascript/js-array-iteration",
           },
           {
             text: "JS Object Iteration",
-            link: "/docs-javascript/js-object-iteration"
+            link: "/docs-javascript/js-object-iteration",
           },
           {
             text: "ES6 Object Literal",
-            link: "/docs-javascript/ES6-object-literal"
+            link: "/docs-javascript/ES6-object-literal",
           },
           {
             text: "Sets / Maps",
-            link: "/docs-javascript/sets-and-maps"
+            link: "/docs-javascript/sets-and-maps",
+          },
+          {
+            text: "Array Methods",
+            link: "/docs-javascript/array-methods",
+          },
+          {
+            text: "[advanced] Pass by Value vs. Reference",
+            link: "/docs-javascript/advanced-value-and-reference",
           },
         ],
       },
@@ -122,8 +139,8 @@ export default defineConfig({
 
   markdown: {
     theme: {
-      light: 'rose-pine-dawn',
-      dark: 'rose-pine-moon'
+      light: "rose-pine-dawn",
+      dark: "rose-pine-moon",
     },
     config: (md) => {
       // 使用更多的 Markdown-it 插件！
