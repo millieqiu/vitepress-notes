@@ -3,7 +3,7 @@
   --vp-font-family-base: "Poppins", "Noto Sans TC", ui-sans-serif, system-ui,
     -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --vp-font-family-mono: "Fira Mono", "SF Mono", Menlo, Monaco, Consolas,
+  --vp-font-family-mono: Menlo, "Fira Mono", "SF Mono", Menlo, Monaco, Consolas,
     monospace;
 }
 

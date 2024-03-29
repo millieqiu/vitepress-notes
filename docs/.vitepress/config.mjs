@@ -4,7 +4,7 @@ import markdownItTaskCheckbox from "markdown-it-task-checkbox";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-Hant-TW",
-  title: "Millie Qiu",
+  title: "Millie Qiu 筆記",
   description: "Hi，我是 Millie！歡迎來到我的前端個人筆記本",
   lastUpdated: true,
   head: [
@@ -141,13 +141,16 @@ export default defineConfig({
       {
         text: "HTML",
         collapsed: true,
-        items: [
-        ],
+        items: [],
       },
       {
         text: "CSS",
         collapsed: true,
         items: [
+          {
+            text: "🔖 Intro",
+            link: "/docs-css/",
+          },
           {
             text: "Grid 格線排版",
             link: "/docs-css/css-grid",
@@ -161,8 +164,7 @@ export default defineConfig({
       {
         text: "Git 版控",
         collapsed: true,
-        items: [
-        ],
+        items: [],
       },
       {
         text: "Vue",
@@ -179,8 +181,24 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "🔖 Intro",
+            link: "/docs-pitfall/",
+          },
+          {
             text: "HTML / CSS",
             link: "/docs-pitfall/pitfall-html-css",
+          },
+          {
+            text: "Vue",
+            link: "/docs-pitfall/pitfall-vue",
+          },
+          {
+            text: "Git 版控",
+            link: "/docs-pitfall/pitfall-git",
+          },
+          {
+            text: "其他（dotnet / 專案問題）",
+            link: "/docs-pitfall/pitfall-other",
           },
         ],
       },
