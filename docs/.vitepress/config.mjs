@@ -3,6 +3,7 @@ import markdownItTaskCheckbox from "markdown-it-task-checkbox";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/",
   lang: "zh-Hant-TW",
   title: "Millie Qiu 筆記",
   description: "Hi，我是 Millie！歡迎來到我的前端個人筆記本",
@@ -54,7 +55,7 @@ export default defineConfig({
 
     outline: [2, 3],
 
-    nav: [{ text: "Examples", link: "/markdown-examples" }],
+    nav: [{ text: "Blog", link: "https://millieqiu-blog.hashnode.dev/" }],
 
     sidebar: [
       {
