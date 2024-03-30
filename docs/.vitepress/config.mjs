@@ -57,6 +57,7 @@ export default defineConfig({
 
     nav: [{ text: "Blog", link: "https://millieqiu-blog.hashnode.dev/" }],
 
+    // > ----- sidebar ----------
     sidebar: [
       {
         text: "README",

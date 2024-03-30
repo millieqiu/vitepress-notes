@@ -91,6 +91,7 @@
 /* 其他客製化樣式 */
 mark {
   background-color: var(--vp-c-yellow-soft);
+  color: var(--vp-c-neutral);
 }
 
 .subtitle {
