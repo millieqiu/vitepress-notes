@@ -9,6 +9,8 @@ export default defineConfig({
   description: "Hi，我是 Millie！歡迎來到我的前端個人筆記本",
   lastUpdated: true,
   head: [
+    // <meta name="google-site-verification" content="65sQAE2BarZ4abRYbJL9ExdsBBL9BKy3mNgb7X5lcZQ" />
+    ["meta", { name: "google-site-verification", content: "65sQAE2BarZ4abRYbJL9ExdsBBL9BKy3mNgb7X5lcZQ" }],
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
     [
@@ -221,4 +223,8 @@ export default defineConfig({
       md.use(markdownItTaskCheckbox);
     },
   },
+
+  sitemap: {
+    hostname: 'https://millie-qiu-notebook.netlify.app/'
+  }
 });

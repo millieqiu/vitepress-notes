@@ -1,3 +1,7 @@
+---
+comments: false
+---
+
 # Writing Guidelines
 
 > [!NOTE] 備註：
