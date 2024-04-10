@@ -6,7 +6,7 @@ export default defineConfig({
   base: "/",
   lang: "zh-Hant-TW",
   title: "Millie Qiu 筆記",
-  description: "Hi，我是 Millie！歡迎來到我的前端個人筆記本",
+  description: "Hi，我是 Millie！歡迎來到我的前端個人筆記本。本網站為我在學習前端技術時的手札，內容包含 HTML、CSS、JavaScript、Git、Vue.js 等，除了幫助自己複習，更希望能夠幫助到有需要的人。",
   lastUpdated: true,
   head: [
     // <meta name="google-site-verification" content="65sQAE2BarZ4abRYbJL9ExdsBBL9BKy3mNgb7X5lcZQ" />

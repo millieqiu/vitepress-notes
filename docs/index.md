@@ -1,4 +1,9 @@
-# About
+# Millie Qiu 筆記
+
+歡迎來到我的前端個人筆記本。
+
+## About
+
 Hi，我是 Millie，也可以叫我米粒。<br>
 
 來自台灣的 Frontend-designer，曾一心嚮往成為 UI/UX 設計師，自 2023 年畢業起誤打誤撞踏進前端的領域，因此現正以菜鳥工程師的身份持續學習中。 <br>
