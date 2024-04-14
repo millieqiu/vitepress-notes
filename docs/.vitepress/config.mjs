@@ -93,6 +93,10 @@ export default defineConfig({
             link: "/docs-javascript/basic-functions",
           },
           {
+            text: "[basic] Execution context",
+            link: "/docs-javascript/basic-execution-context.md",
+          },
+          {
             text: "Destructuring",
             link: "/docs-javascript/destructuring",
           },
@@ -139,6 +143,10 @@ export default defineConfig({
           {
             text: "[advanced] JS this & call / apply / bind",
             link: "/docs-javascript/advanced-this",
+          },
+          {
+            text: "[advanced] IIFE & Closure",
+            link: "/docs-javascript/advanced-closure",
           },
         ],
       },
