@@ -46,7 +46,7 @@ inner(); // 3
 
 在上面的例子中，當我們創造函式 `outer()` 時，該函式就已經存取、訪問過執行環境中的 Variable Environment（VE）了。
 
-> 🔗 有關於 JavaScript 執行環境的筆記可以看[這裡]()。
+> 🔗 有關於 JavaScript 執行環境的筆記可以看[這裡](/docs-javascript/basic-execution-context.md)。
 
 **Closure**（**閉包**）則是指 VE 會依附在 `outer` 函式上，讓我們在一個內層函式中（這邊的 `inner`），訪問到外部函式的作用域（這邊的 `outer`），並且會記住外部函式的變數，也就是變數 `a`。
 
@@ -60,6 +60,6 @@ inner(); // 3
 
 Reference：
 
-> [JavaScript 立即調用函式 IIFE (Immediately Invoked Function Expression) 是什麼？優缺點是什麼？- ExplainThis.io](https://www.explainthis.io/zh-hant/swe/what-is-iife)
-> [重新認識 JavaScript: Day 19 閉包 Closure](https://ithelp.ithome.com.tw/articles/10193009)
+> [JavaScript 立即調用函式 IIFE (Immediately Invoked Function Expression) 是什麼？優缺點是什麼？- ExplainThis.io](https://www.explainthis.io/zh-hant/swe/what-is-iife) <br>
+> [重新認識 JavaScript: Day 19 閉包 Closure](https://ithelp.ithome.com.tw/articles/10193009) <br>
 > [[JS] 深入淺出 JavaScript 閉包（closure）](https://pjchender.dev/javascript/js-closure/)

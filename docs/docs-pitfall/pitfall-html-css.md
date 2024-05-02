@@ -53,3 +53,23 @@ input[type=number] {
 
 > [有关CSS的overflow和border-radius的那些事，你的圆角被覆盖了吗？](https://www.cnblogs.com/sanshi/p/9712426.html) <br>
 > [CSS偶有所得 - table 边框加圆角踩坑](https://juejin.cn/post/6844903957219934222) 👈 如果有需要幫 table 設置圓角可以參考
+
+## [HTML] 瀏覽器預覽列印，顯示空白畫面
+
+專案設定列印模式的 HTML 結構如下：
+
+```html
+<div class="view">
+...
+</div>
+<div class="print">
+...
+</div>
+```
+
+切版完後不知道為何無法正確跑出列印格式，點擊列印按鈕後會一直顯示為空白畫面。
+
+::: tip 解決方法：
+原來是因為 `view` 的 div 少了閉合標籤，導致瀏覽器以為 `print` 是包在 `view` 裡面的元素，無法正確渲染出列印格式。<br>
+補上 `view` 的 `</div>` 閉合標籤即可。（好愚蠢的問題啊）
+:::

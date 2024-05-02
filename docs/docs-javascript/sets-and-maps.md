@@ -174,6 +174,16 @@ console.log([...todos.keys()]);
 console.log([...todos.values()]);
 ```
 
+### 補充：`Map` 與 `Object` 的差異
+
+Object 和 Map 類似。兩者都允許設置對應的鍵值對，進行檢索及刪除。正因為如此，Object 在歷史上一直被當作 Map 使用；然而在某些情況下，使用 Map 有一些重要的不同之處：<br>
+
+1. Object 的**鍵值**大多是由「字串」組成（MDN 提到也可以是 `Symbol`，不過這邊我們先不談），而在 Map 中則可以是任意的資料型態，包括函數，對象以及原始的資料型態。<br>
+
+2. 可以使用 `size` 屬性輕鬆地獲得 Map 的大小，而 Object 中的屬性數量必須手動確認。
+
+3. Map 是可迭代（iterable）的，因此可以直接迭代，而在 Object 上迭代則需要以某種方式獲取其鍵並對其進行迭代。
+
 ## 總結
 
 資料的來源通常可以分成以下三種：
@@ -184,7 +194,7 @@ console.log([...todos.values()]);
 
 - 來自 Web API（通常會拿到 JSON 格式的資料）
 
-![](/截圖%202024-01-12%20下午5.07.30.png){data-zoomable}
+![image](/截圖%202024-01-12%20下午5.07.30.png){data-zoomable}
 
 ---
 
