@@ -87,7 +87,7 @@ const getScore = function(name, score = 60) {
 getScore("Mike", undefined); // {name: "Mike", score: 60}
 ```
 
-> 🔗 本篇只會介紹基本的函式用途，要看更進階的函式特性（例如傳值傳址、回呼函式等），可以從 這篇 開始看。
+> 🔗 本篇只會介紹基本的函式用途，要看更進階的函式特性（例如傳值傳址、回呼函式等），可以從 [這篇](/docs-javascript/advanced-value-and-reference.md) 開始看。
 
 ---
 
