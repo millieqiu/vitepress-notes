@@ -82,7 +82,7 @@ for (let value in arr) {
 - 會針對每一個元素執行提供的函式。
 - `forEach` 方法只會遍歷原陣列，並不會回傳一個新陣列。所以如果需要從一個舊陣列中建構出另一個新陣列，應該使用 `map` 方法。
 
-- [ ] <mark>TODO: 補 `map` 方法的連結</mark>
+> 🔗 整理過後更詳細的 [forEach()](/docs-javascript/array-methods.md#foreach) 和 [map()](/docs-javascript/array-methods.md#map) 說明。
 
 ```javascript
 const scores = [22, 54, 76];
