@@ -69,7 +69,7 @@ export default defineConfig({
 
     outline: [2, 3],
 
-    nav: [{ text: "Blog", link: "https://millieqiu-blog.hashnode.dev/" }],
+    nav: [{ text: "Blog", link: "https://my-attic-millieqiuuuu.vercel.app/" }],
 
     // > ----- sidebar ----------
     sidebar: [
