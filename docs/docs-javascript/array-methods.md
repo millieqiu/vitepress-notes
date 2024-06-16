@@ -175,6 +175,33 @@ let newArr = arr.map((val) => val * 2);
 > [!NOTE] 備註：
 > 如果有在寫 React 的話，因為 React 沒有像 Vue 一樣的 `v-for` 語法糖，因此在需要顯示某個 array 的資料時，幾乎都會使用 `map` 處理。
 
+### ◾ `filter()`
+
+`filter()` 方法依據字面上的意思，可以幫助我們「篩選、過濾」陣列中的元素，對**符合給定條件**的一部份陣列進行淺拷貝（Shallow Copy），並 `return` 一組新的陣列。
+
+```javascript
+const nums = [89, 32, 104, 46, 249, 71, 515];
+
+const numsBiggerThan100 = nums.filter(num => num > 100);
+
+console.log(numsBiggerThan100);
+// [104, 249, 515]
+```
+
+適用場景：也可以用於關鍵字搜尋，幫助我們篩選出符合指定條件的元素。
+
+```javascript
+const fruits = [
+  { name: 'apple', quantity: 0 }, 
+  { name: 'orange', quantity: 1 }, 
+  { name: 'watermelon', quantity: 2 },
+  { name: 'grape', quantity: 3 }
+]
+
+const fruitsWithG = fruits.filter(fruit => fruit.name.toLowerCase().includes('g'))
+console.log(fruitsWithG); // 只會印出 orange 跟 grape 的物件
+```
+
 ## 其他補充方法
 
 ### ◾ `reverse()`

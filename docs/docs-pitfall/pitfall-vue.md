@@ -81,3 +81,21 @@ export default {
 ::: tip 解決方法：
 在元素外部再包一層 div，並將 `v-show` 套用到外層的 div 上。
 :::
+
+## 在 Vue3 註冊客製化的 directives
+
+```javascript
+<script setup>
+import { myDirective as vMyDirective } from './MyDirective.js'
+</script>
+```
+
+👆 參考 [Vue.js Doc](https://vuejs.org/api/sfc-script-setup.html#using-custom-directives)
+
+如果外部引入的檔案只有 `export default`，沒有給予預設的名稱的話，也可以直接這樣寫：
+
+```javascript
+<script setup>
+import vMyDirective from './MyDirective.js'
+</script>
+```
