@@ -73,3 +73,15 @@ input[type=number] {
 原來是因為 `view` 的 div 少了閉合標籤，導致瀏覽器以為 `print` 是包在 `view` 裡面的元素，無法正確渲染出列印格式。<br>
 補上 `view` 的 `</div>` 閉合標籤即可。（好愚蠢的問題啊）
 :::
+
+## [Tailwind] 無法正確渲染顏色變數
+
+將顏色的 Enum 添加到 `enum.js` 的檔案中，再利用 `v-for` 迴圈試圖將顏色選染填至 svg icon 裡面，但試了很久都沒成功，永遠都還是會呈現預設的黑色。<br>
+
+原因：沒有將 `.js` 的路徑添加到 `tailwind.config.js` 檔案中。
+
+![](/tailwind-config-path.png){data-zoomable}
+
+::: tip 解決方法：
+記得只要檔案中有需要用到 tailwind 的屬性或變數，就要將檔案的路徑加到  `tailwind.config.js` 裡面。
+:::
